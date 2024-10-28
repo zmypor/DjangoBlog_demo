@@ -1,0 +1,82 @@
+.content {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px 15px;
+  margin-bottom: 20px;
+  width: 700px;
+  max-width: 700px;
+  height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+.container {
+  border-radius: 8px;
+  background-color: #ffffff; /* 设置背景颜色 */
+  padding: 20px 15px; /* 增加内边距 */
+  margin: 20px auto; /* 居中显示 */
+  position: absolute;
+  width: 47.5%;
+  left: 25%;
+
+  word-wrap: break-word; /* 确保长单词自动换行 */
+  white-space: pre-wrap; /* 保留空白字符并自动换行 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  transition: box-shadow 0.3s ease-in-out; /* 添加过渡效果 */
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap; /* 允许子元素换行 */
+  align-items: flex-start; /* 子元素顶部对齐 */
+}
+
+.tags span {
+  box-sizing: border-box;
+  background-color: #006edc;
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px; /* 增加内边距 */
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* 添加过渡效果 */
+}
+
+.tags span:hover {
+  background-color: #164e85;
+  color: white; /* 鼠标悬停时改变文字颜色 */
+}

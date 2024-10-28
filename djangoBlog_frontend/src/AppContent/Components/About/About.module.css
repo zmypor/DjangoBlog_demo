@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start; /* 水平对齐 */
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin: 0; /* 设置标题上下间距 */
+  line-height: 1.2; /* 设置标题行高 */
+}
+
+.content ul,
+.content ol {
+  line-height: 0; /* 设置列表行高 */
+  padding: 0 15px;
+}
+.content p {
+  line-height: 1; /* 设置列表行高 */
+}
+.content li {
+  line-height: 1.8; /* 设置列表行高 */
+  word-wrap: break-word; /* 确保长单词自动换行 */
+  white-space: normal; /* 确保文本正常换行 */
+}
+
+.content blockquote {
+  margin: 20px 0; /* 设置引用块上下间距 */
+  padding: 10px 20px; /* 设置引用块内边距 */
+  background-color: #f5f5f5; /* 设置引用块背景颜色 */
+  border-left: 5px solid #ccc; /* 设置引用块左边框 */
+  line-height: 1.6; /* 设置引用块行高 */
+}
+.contents {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 3.5%;
+  margin-right: 4.5%;
+}
+.article {
+  position: relative;
+  border-radius: 8px;
+  background-color: #ffffff; /* 设置背景颜色 */
+  padding: 10px 20px; /* 增加内边距 */
+  word-wrap: break-word; /* 确保长单词自动换行 */
+  white-space: pre-wrap; /* 保留空白字符并自动换行 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  transition: box-shadow 0.3s ease-in-out; /* 添加过渡效果 */
+  margin-bottom: 30px;
+}
+.leftbar {
+  position: sticky;
+  top: 48px;
+  width: 30%;
+  margin-top: 20px;
+}
+.navbar {
+  margin-left: 30%;
+  position: sticky;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  transition: box-shadow 0.3s ease-in-out; /* 添加过渡效果 */
+  border-radius: 8px;
+}

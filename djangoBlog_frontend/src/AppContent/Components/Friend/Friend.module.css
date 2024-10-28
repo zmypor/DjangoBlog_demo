@@ -1,0 +1,54 @@
+.friendContainer {
+  position: absolute;
+  width: 55%;
+  left: 20%;
+}
+
+.title {
+  font-size: 24px; /* 设置标题字体大小 */
+  color: #333; /* 设置标题颜色 */
+  margin-bottom: 20px; /* 增加标题底部间距 */
+  text-align: center; /* 标题居中 */
+}
+
+.friendList {
+  list-style: none; /* 移除列表样式 */
+  padding: 0; /* 移除内边距 */
+  margin: 0; /* 移除外边距 */
+  display: flex; /* 使用 flex 布局 */
+  flex-wrap: wrap; /* 允许子项换行 */
+  gap: 10px; /* 增加子项之间的间距 */
+}
+
+.friendItem {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  background-color: white;
+  display: flex; /* 使用 flex 布局 */
+  align-items: center; /* 垂直居中 */
+  padding: 10px; /* 增加内边距 */
+  border-radius: 8px; /* 设置边框弧度 */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* 添加过渡效果 */
+  width: 240px; /* 设置固定宽度 */
+}
+.friendItem:hover {
+  transform: translateY(-5px); /* 鼠标悬停时卡片稍微上移 */
+}
+.friendLink {
+  text-decoration: none; /* 移除链接下划线 */
+  color: #006edc; /* 设置链接颜色 */
+  font-size: 18px; /* 设置链接字体大小 */
+  transition: color 0.3s ease-in-out; /* 添加过渡效果 */
+  display: flex;
+}
+
+.avatar {
+  width: 30px; /* 设置头像宽度 */
+  height: 30px; /* 设置头像高度 */
+  border-radius: 50%; /* 设置头像为圆形 */
+  margin-right: 10px; /* 增加头像和文字之间的间距 */
+}
+.friendName {
+  overflow: hidden; /* 隐藏溢出的文字 */
+  width: 190px; /* 设置宽度 */
+  word-wrap: break-word; /* 自动换行 */
+}

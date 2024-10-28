@@ -1,0 +1,109 @@
+.section {
+  background-color: #f9f9f9; /* 设置背景颜色 */
+  border-radius: 8px; /* 设置边框弧度 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  padding: 10px 20px; /* 增加内边距 */
+
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* 增加输入框之间的间距 */
+  margin-bottom: 20px; /* 增加底部间距 */
+}
+
+.authorEmail {
+  display: flex;
+  gap: 20px; /* 增加昵称和邮箱输入框之间的间距 */
+}
+
+.authorEmail div {
+  flex: 1; /* 使昵称和邮箱输入框平分空间 */
+}
+
+.input textarea,
+.input input {
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input button {
+  align-self: flex-start;
+  padding: 10px 14px;
+  background-color: #006edc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.input button:hover {
+  background-color: #005bb5;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* 增加评论之间的间距 */
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* 增加评论内容之间的间距 */
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+.comment img.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment div {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* 增加头像和内容之间的间距 */
+}
+
+.comment strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.comment textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.comment button {
+  padding: 5px 10px;
+  background-color: #006edc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.comment button:hover {
+  background-color: #005bb5;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 10px; /* 增加按钮之间的间距 */
+}
