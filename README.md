@@ -1,4 +1,4 @@
-#### Introduction
+#### Brief Introduction
 Establishment of demonstrative personal blog website
 
 #### Software architecture
